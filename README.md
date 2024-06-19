@@ -19,7 +19,7 @@
   ***Do not try to run the parser before running tg_bot.py because without a database the parser will not be able to save data and you will get an error !!!***
 
 
-+ After starting the bot and creating the Database you can safely run the parser with the command:
++ After launching the bot and creating the Database, create a new terminal and you can safely run the parser command:
     ```python
     python parser.py
     ```
