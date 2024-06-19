@@ -35,7 +35,7 @@ async def main():
     while True:
         await get_vacancy_count()
         # Waiting time 1 hour (3600 seconds)
-        await asyncio.sleep(180)
+        await asyncio.sleep(3600)
 
 if __name__ == '__main__':
     asyncio.run(main())
